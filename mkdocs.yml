@@ -177,27 +177,11 @@ plugins:
       nav_translations:
         tr:
           Home: 'Anasayfa'
-          Syllabus: 'Ders İzlencesi'
-          Course Modules: 'Ders Modülleri'
-          Week-1 (Intro, Asymptotic Notations): 'Week-1 (Intro, Asymptotic Notations)'
-          Week-2 (Solving Recurrences): 'Week-2 (Solving Recurrences)'
-          Week-3 (Matrix Multiplication/Quick Sort): 'Week-3 (Matrix Multiplication/Quick Sort)'
-          Week-4 (Heap/Heap Sort): 'Week-4 (Heap/Heap Sort)'
-          Week-5 (Dynamic Programming): 'Week-5 (Dynamic Programming)'
-          Week-6 (Matrix Chain Order / LCS): 'Week-6 (Matrix Chain Order / LCS)'
-          Week-7 (Greedy Algorithms, Knapsack): 'Week-7 (Greedy Algorithms, Knapsack)'
-          Week-8 (Midterm): 'Week-8 (Midterm)'
-          Week-9 (Huffman Coding): 'Week-9 (Huffman Coding)'
-          Week-10 (Graphs): 'Week-10 (Graphs)'
-          Week-11 (Shortest Path): 'Week-11 (Shortest Path)'
-          Week-12 (Hashing): 'Week-12 (Hashing)'
-          Week-13 (Encryption): 'Week-13 (Encryption)'
-          Week-14 (One-Time-Password / File Enc.): 'Week-14 (One-Time-Password / File Enc.)'
-          Week-15 (Review): 'Week-15 (Review)'
-          Week-16 (Final): 'Week-16 (Final)'
-          License: 'License'
-          Resume: 'Resume'
-          Changelog: 'Changelog'
+          Companies: 'Firmalar'
+          Internship: 'Staj'
+          Calendar :  'Takvim'
+          License: 'Lisans'
+          Changelog: 'Revizyon'
   - tags:
       tags_file: tags.md
   - minify:
@@ -226,11 +210,11 @@ extra_javascript:
 # Page tree
 nav:
   - Home: index.md
-  - Companies: interndocs/companies.md
-  - Internship: interndocs/intership.md
-  - Calendar :  interndocs/calendar.md
-  - License: interndocs/license.md
-  - Changelog: interndocs/changelog.md
+  - Companies: companies/companies.md
+  - Internship: intership/intership.md
+  - Calendar :  calendar/calendar.md
+  - License: license/license.md
+  - Changelog: changelog/changelog.md
 
   
 

@@ -1,1 +1,1 @@
-start "" "https://ucoruh.github.io/ce100-algorithms-and-programming-II/"
+start "" "https://rteu-ceng.github.io/rteu-internship-guideline/"

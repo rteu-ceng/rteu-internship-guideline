@@ -1,5 +1,7 @@
 # Project information
 site_name: "Recep Tayyip Erdogan University Internship Guideline"
+site_name_en: "Recep Tayyip Erdogan University Internship Guideline"
+site_name_tr: "Recep Tayyip Erdogan Üniversitesi Staj Rehberi"
 docs_dir: docs  # Where to find the English markdown files
 site_dir: site  # Where to put the English HTML files
 site_author: 'Asst. Prof. Dr. Uğur CORUH'
@@ -103,7 +105,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rteu-ceng
-    - icon: fontawesome/regular/
+    - icon: fontawesome/regular/star
       link: http://bilgisayar.mmf.erdogan.edu.tr/
       
 # Extensions
@@ -132,8 +134,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: ucoruh
-      repo: ce100-algorithms-and-programming-II
+      user: rteu-ceng
+      repo: rteu-internship-guideline
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:

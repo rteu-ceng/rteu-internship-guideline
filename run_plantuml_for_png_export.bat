@@ -1,1 +1,16 @@
-java -DPLANTUML_LIMIT_SIZE=8192 -jar "plantuml.jar" -v "./**.(uml)"
+@echo off
+setlocal
+
+REM Set the URL to download the latest version of PlantUML
+set PLANTUML_URL=https://github.com/plantuml/plantuml/releases/download/v1.2021.14/plantuml-1.2021.14.jar
+
+REM Check if the plantuml.jar file exists. If it doesn't, download it from the URL.
+if not exist plantuml.jar (
+    echo Downloading PlantUML...
+    curl -L %PLANTUML_URL% -o plantuml.jar
+)
+
+REM Run PlantUML on all .puml files in the current directory and its subdirectories, and output files to the plantuml folder
+java -Dplantuml.include.path="./plantuml/" -jar plantuml.jar -charset UTF-8 -v -r "./**.puml"
+
+pause

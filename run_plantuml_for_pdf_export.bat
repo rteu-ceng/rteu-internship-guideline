@@ -11,6 +11,6 @@ if not exist plantuml.jar (
 )
 
 REM Run PlantUML on all .puml files in the current directory and its subdirectories, and output files to the plantuml folder
-java -cp ./plantuml/*.jar -jar plantuml.jar -charset UTF-8 -tpdf -v -r "./**.puml"
+java -classpath C:\Users\ugur.coruh\Desktop\rteu-intern\plantuml -jar plantuml.jar -charset UTF-8 -tpdf -v -r "./**.puml"
 
 pause

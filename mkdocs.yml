@@ -199,8 +199,8 @@ plugins:
       repository: ucoruh/ce100-algorithms-and-programming-II
       docs_path: docs/
       branch: main
-      #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
-      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+      #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY_RTEU"]
+      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY_RTEU
       # enabled: !ENV [MKDOCS_ENABLE_GIT_COMMITTERS, True]
   - macros
 

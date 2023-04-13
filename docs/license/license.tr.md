@@ -2,6 +2,6 @@
 template: main.html
 ---
 
-# License
+# Lisans
 
 TODO ADD LICENSE 

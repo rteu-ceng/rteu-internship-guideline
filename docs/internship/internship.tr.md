@@ -2,4 +2,4 @@
 template: main.html
 ---
 
-# Internship
+# Staj

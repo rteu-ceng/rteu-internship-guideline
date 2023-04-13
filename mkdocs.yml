@@ -211,7 +211,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Companies: companies/companies.md
-  - Internship: intership/intership.md
+  - Internship: internship/internship.md
   - Calendar :  calendar/calendar.md
   - License: license/license.md
   - Changelog: changelog/changelog.md

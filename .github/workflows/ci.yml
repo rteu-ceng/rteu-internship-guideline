@@ -38,4 +38,5 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin
       - run: pip install mkdocs-exclude
       - run: pip install pptx2md
+      - run: pip install mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force

@@ -1,0 +1,236 @@
+# Project information
+site_name: "Recep Tayyip Erdogan University Internship Guideline"
+docs_dir: docs  # Where to find the English markdown files
+site_dir: site  # Where to put the English HTML files
+site_author: 'Asst. Prof. Dr. Uğur CORUH'
+site_url: 'https://rteu-ceng.github.io/rteu-internship-guideline/'
+site_description: >-
+    RTEU Internship Documentation and Guideline for Students
+    
+site_description_en: >-
+    RTEU Internship Documentation and Guideline for Students
+
+site_description_tr: >-
+    RTEU Öğrencileri için Staj Belgeleri ve Yönergeleri
+
+# Repository
+repo_name: 'GitHub'
+repo_url: 'https://rteu-ceng.github.io/rteu-internship-guideline/'
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2006 - 2023 Recep Tayyip Erdogan University
+     
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/overrides/
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  
+  # Static files
+  static_templates:
+    - 404.html
+    
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+
+  palette:
+    - scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.png
+  icon:
+    logo: logo
+    
+# Customization
+extra:
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_RTEU_INTERN
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target=_blank>feedback form</a>.
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics: Google Analytics
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rteu-ceng
+    - icon: fontawesome/regular/
+      link: http://bilgisayar.mmf.erdogan.edu.tr/
+      
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: ucoruh
+      repo: ce100-algorithms-and-programming-II
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - codehilite:
+      guess_lang: true
+
+# for github personal access token open - https://github.com/settings/tokens
+plugins:
+  - mkdocs-simple-hooks:
+      hooks:
+          on_env: "hooks:on_env"
+  # https://github.com/fire1ce/mkdocs-embed-external-markdown
+  - external-markdown
+  - mkdocs-video #https://pypi.org/project/mkdocs-video/
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      languages:
+        default:
+          name: English
+          build: true
+        en:
+          name: English
+          build: true
+          site_name: "RTEU CE100 Algorithms and Programming-II Course Notes"
+        tr:
+          name: Türkçe
+          build: true
+          site_name: "RTEU CE100 Algorithms and Programming-II Course Notes"
+      nav_translations:
+        tr:
+          Home: 'Anasayfa'
+          Syllabus: 'Ders İzlencesi'
+          Course Modules: 'Ders Modülleri'
+          Week-1 (Intro, Asymptotic Notations): 'Week-1 (Intro, Asymptotic Notations)'
+          Week-2 (Solving Recurrences): 'Week-2 (Solving Recurrences)'
+          Week-3 (Matrix Multiplication/Quick Sort): 'Week-3 (Matrix Multiplication/Quick Sort)'
+          Week-4 (Heap/Heap Sort): 'Week-4 (Heap/Heap Sort)'
+          Week-5 (Dynamic Programming): 'Week-5 (Dynamic Programming)'
+          Week-6 (Matrix Chain Order / LCS): 'Week-6 (Matrix Chain Order / LCS)'
+          Week-7 (Greedy Algorithms, Knapsack): 'Week-7 (Greedy Algorithms, Knapsack)'
+          Week-8 (Midterm): 'Week-8 (Midterm)'
+          Week-9 (Huffman Coding): 'Week-9 (Huffman Coding)'
+          Week-10 (Graphs): 'Week-10 (Graphs)'
+          Week-11 (Shortest Path): 'Week-11 (Shortest Path)'
+          Week-12 (Hashing): 'Week-12 (Hashing)'
+          Week-13 (Encryption): 'Week-13 (Encryption)'
+          Week-14 (One-Time-Password / File Enc.): 'Week-14 (One-Time-Password / File Enc.)'
+          Week-15 (Review): 'Week-15 (Review)'
+          Week-16 (Final): 'Week-16 (Final)'
+          License: 'License'
+          Resume: 'Resume'
+          Changelog: 'Changelog'
+  - tags:
+      tags_file: tags.md
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+  - git-revision-date-localized:
+      type: timeago
+      # enabled: !ENV [MKDOCS_ENABLE_GIT_REVISION_DATE, True]
+  - git-authors:
+      sort_authors_by: contribution
+  - git-committers:
+      repository: ucoruh/ce100-algorithms-and-programming-II
+      docs_path: docs/
+      branch: main
+      #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+      # enabled: !ENV [MKDOCS_ENABLE_GIT_COMMITTERS, True]
+  - macros
+
+extra_javascript:
+  - javascript/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
+# Page tree
+nav:
+  - Home: index.md
+  - Companies: interndocs/companies.md
+  - Internship: interndocs/intership.md
+  - Calendar :  interndocs/calendar.md
+  - License: interndocs/license.md
+  - Changelog: interndocs/changelog.md
+
+  
+

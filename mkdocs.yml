@@ -171,15 +171,16 @@ plugins:
         en:
           name: English
           build: true
-          site_name: "RTEU CE100 Algorithms and Programming-II Course Notes"
+          site_name: "Recep Tayyip Erdogan University Internship Guideline"
         tr:
           name: Türkçe
           build: true
-          site_name: "RTEU CE100 Algorithms and Programming-II Course Notes"
+          site_name: "Recep Tayyip Erdogan Üniversitesi Staj Rehberi"
       nav_translations:
         tr:
           Home: 'Anasayfa'
           Companies: 'Firmalar'
+          Government: 'Kamu'
           Internship: 'Staj'
           Calendar :  'Takvim'
           License: 'Lisans'
@@ -213,6 +214,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Companies: companies/companies.md
+  - Government: government/government.md
   - Internship: internship/internship.md
   - Calendar :  calendar/calendar.md
   - License: license/license.md

@@ -12,7 +12,7 @@ template: main.html
 
 **DOMAIN**	: Fintech, Telco, IoT, Cyber Security, V2X, Medical, Learning Management Systems.
 
-**ADRESİ ** : Dijitalpark Teknokent, Fener Mah. Atatürk Cad. No:28/2 İç Kapı No:3 Merkez/RİZE
+**ADRESİ** : Dijitalpark Teknokent, Fener Mah. Atatürk Cad. No:28/2 İç Kapı No:3 Merkez/RİZE
 
 **WEB SİTESİ** : http://www.coruh.com.tr/
 

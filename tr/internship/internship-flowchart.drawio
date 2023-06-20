@@ -1,0 +1,104 @@
+<mxfile host="Electron" modified="2023-04-13T14:24:44.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="T8Hu3eA1GoRfGEFbdTGz" version="21.1.2" type="device">
+  <diagram name="Page-1" id="CUu9kGzRh2OfhHVefiGy">
+    <mxGraphModel dx="1668" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wiS3US8JNWu8__BUDS0D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-1" target="wiS3US8JNWu8__BUDS0D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-1" value="RTEÜ Bilgisayar Mühendisliği Staj Başvurusu / Bilgilendirme Toplantısı" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-2" target="wiS3US8JNWu8__BUDS0D-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-2" value="Öğrenci" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-4" target="wiS3US8JNWu8__BUDS0D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-4" value="RTEÜ Bilgisayar Mühendisliği Bölümü Staj Uygulama Esasları Okunur" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-8" value="HAYIR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-6" target="wiS3US8JNWu8__BUDS0D-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="590" />
+              <mxPoint x="150" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-10" value="EVET" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-6" target="wiS3US8JNWu8__BUDS0D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-6" value="Okundu Mu?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-12" value="EVET" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-9" target="wiS3US8JNWu8__BUDS0D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-9" value="Staj Başvuru ve Staj Yeri Kabul Formu Doldurulur ve Staj Yapılacak Firmaya İmzalatılır. Daha sonra staj koordinatörlüğüne imzalatılır" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-13" value="HAYIR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-11" target="wiS3US8JNWu8__BUDS0D-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="880" />
+              <mxPoint x="140" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-11" target="wiS3US8JNWu8__BUDS0D-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-11" value="Staj Formları doldurulup staj yapılacak Firmaya imzalatıldı mı?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="820" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-14" target="wiS3US8JNWu8__BUDS0D-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-14" value="İmzalatılan formlar bölüm öğrenci işlerine teslim edilir." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="970" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-16" target="wiS3US8JNWu8__BUDS0D-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-16" value="Staj başlama tarihinde staja başlanır." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="830" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-17" target="wiS3US8JNWu8__BUDS0D-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-17" value="Cumhurbaşkanlığı İnsan Kaynakları Ofis aracılığıyla yapılan başvurularda kabul edildiğinde dair belgenin bir çıktısı alınır ve usulde belirtilen ilgili birime teslim edilir." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="950" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-23" value="EVET" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-20" target="wiS3US8JNWu8__BUDS0D-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-20" value="Staj Bitti mi?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="695" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-22" target="wiS3US8JNWu8__BUDS0D-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-22" value="Uygulama ve Esaslar içerisinde yer alan maddeler dikkate alınarak staj dosyaları ve gerekli evraklar hazırlanır." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="wiS3US8JNWu8__BUDS0D-24" target="wiS3US8JNWu8__BUDS0D-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-24" value="Hazırlanan staj dosyaları ve evraklar şahsen veya posta yolu ile Bilgisayar Mühendisliği Bölümüne gönderilir" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-26" value="Staj dosyaları komisyon tarafından değerlendirilir." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiS3US8JNWu8__BUDS0D-28" value="Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölümü Staj Süreci Diyagramı" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="750" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

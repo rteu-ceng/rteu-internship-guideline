@@ -4,8 +4,25 @@ template: main.html
 
 # Staj
 
-[İndir](assets/internship-flowchart-extended.pdf)
+## RTEU MÜHENDİSLİK VE MİMARLIK FAKÜLTESİ BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ STAJ UYGULAMALARI AKIŞI
+
+[Download PDF](http://bilgisayar.mmf.erdogan.edu.tr/Files/ckFiles/bilgisayar-mmf-erdogan-edu-tr/Belgeler/Bilgisayar_Muhendisligi_Staj_Uygulama_Esaslar%C4%B1.pdf)
+
+![](https://www.plantuml.com/plantuml/svg/dLGxRXin4ErvYkaYNy4fOWH66fUfKjBcM9feo3NuKR0wI5gTGRqwhU-L8NUvH612XLa8v7pUPpJIGuZQnsHPgN9JzzU_qycZUo6Gm6yOqHCy9qx-gw9NsFnSWsdS9WSsVRk3k4C76pnWl5C0zwNcMR-V3icda5o2KRzf0QYvxqiE3WWby2i3FcdXWH-3jxd536oaPEugGQ3tKsPs28FJ8-iudKiwwyeLIzYPwGnsEdyGjW8z3PR2EBWl6Y869Wjei43DO3LV04MaDmIMEdYB8LtSSh7Oec8XZ3g8c9q-YjIMXpyxObo6QV2Wim0Q1p-FaqBZwE4vWTnUBuwlbtsTKuMk9eLCgfQ9mOXnJqpXm-pAGMUAeEMvVirHMsrxyxojxUPuAy4ZJYVqBDJaBK8ON7f9POnPEDzaN5UCU4kS_GKA4GLcIvwOLgfQsgmqrtAG0yAcSehuutySZzVB4JaAR4Pt0jlFod8NnJM_Ucmb-xBQQ8Zxc_GfPpUzLNUDsSf7ZykZCMWQ-BeJzAfwhtgl3FKtKl4RyZmOKNUSaMjdwnFLLijwIL-tg_RC7VC_Zf7D8PQEJlrShK8StfHwa5UohFu1)
+
+## RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ STAJ YÖNERGESİ
+
+[Download PDF](http://bilgisayar.mmf.erdogan.edu.tr/Files/ckFiles/bilgisayar-mmf-erdogan-edu-tr/Belgeler/RTEU_Staj_Yonergesi_190350.pdf)
+
+![](https://www.plantuml.com/plantuml/svg/bPF1RXen48RlVeevabUWXqQ8gfLGIrNII3bEO48Sx5aqkqPQ7gIdIXnpPI-SkArvhtfnlAJRRQkSG9xF_p-U-VSwBr0APurIvtzA3MS5Fi4aipelCtOmDUwqAvmuu-IT6gO2r3zBCYGQFjO7eOqXNcZHHWUeAt6JhGrouIk3uYiOrySjiI6-i2CyxJPE0eghZROQnkHt97sYN10_8GVIqDgG_9qTPtc9UJ1y3LY2Ero7LdpLW9tIDrnduk0JRaFP84Ue_k5tGZpNuFUdNUF912DjMZ-b7s3WzuKMtC8j2bXVlR-2uf4O1YNbLmfWcEf-ptCoP2dNhri9n0G51MxfHHMWaOs7KyRI82zyrQSDS7wnhxWpZ8v9HB_eHzGmozZLpmO5_liy038vmO2pQ9ONsRev31uFwb9wGnTlxo6QgU5NoPQ25bxIaCb2CnOXWlMnBua9R_KRwKPugLikBN1K7qnzjA63-bb7Wxuzzc3VowLBQVbZ7Z2hZz9CO4CX-WSc6ngWO1k_W1QB0y8vhk2EGb6wr6L6aJ-_n1dNHkLot3J4O5r_K2AKCkMhdXMtQVsmI1c87kbyWlVEdAiB3LPtZVvfrJLh4vKobNwx4xn1YpRff4HyfgrZc1gyRvAsYdlXEAFVBgYpYxeE5vqrwXS0)
+
+## Staj Akış Şeması (Güncelleme Gerekiyor)
+
+[Download](assets/internship-flowchart.drawio.pdf)
 
 ![](assets/internship-flowchart.drawio.svg)
+
+
+## Staj Akış Şeması (Güncelleme Gerekiyor)
 
 ![](assets/internship-flowchart-extended.svg)

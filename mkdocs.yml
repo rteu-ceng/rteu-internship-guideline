@@ -26,7 +26,14 @@ copyright: Copyright &copy; 2006 - 2023 Recep Tayyip Erdogan University
 # Configuration
 theme:
   name: material
-  custom_dir: docs/overrides/
+  custom_dir: docs/overrides
+
+  favicon: images/favicon.png
+
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    logo: logo  # Adjust the file name if necessary
 
   # Don't include MkDocs' JavaScript
   include_search_page: false
@@ -68,9 +75,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: images/favicon.png
-  icon:
-    logo: logo
     
 # Customization
 extra:
@@ -126,8 +130,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -151,6 +155,7 @@ markdown_extensions:
   - codehilite:
       guess_lang: true
 
+# Plugins
 # for github personal access token open - https://github.com/settings/tokens
 plugins:
   - mkdocs-simple-hooks:
@@ -158,33 +163,33 @@ plugins:
           on_env: "hooks:on_env"
   # https://github.com/fire1ce/mkdocs-embed-external-markdown
   - external-markdown
-  - mkdocs-video #https://pypi.org/project/mkdocs-video/
+#https://pypi.org/project/mkdocs-video/
+  - mkdocs-video 
   - search:
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'          
   - i18n:
-      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
-      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      fallback_to_default: true
       languages:
-        default:
-          name: English
+        - locale: en
+          name: "English"
           build: true
-        en:
-          name: English
-          build: true
+          default: true
           site_name: "Recep Tayyip Erdogan University Internship Guideline"
-        tr:
-          name: Türkçe
+        - locale: tr
+          name: "Türkçe"
           build: true
           site_name: "Recep Tayyip Erdogan Üniversitesi Staj Rehberi"
-      nav_translations:
-        tr:
-          Home: 'Anasayfa'
-          Companies: 'Firmalar'
-          Government: 'Kamu'
-          Internship: 'Staj'
-          Calendar :  'Takvim'
-          License: 'Lisans'
-          Changelog: 'Revizyon'
+          nav_translations:
+              Home: 'Anasayfa'
+              Companies: 'Firmalar'
+              Government: 'Kamu'
+              Internship: 'Staj'
+              Calendar :  'Takvim'
+              License: 'Lisans'
+              Changelog: 'Revizyon'
   - tags:
       tags_file: tags.md
   - minify:
@@ -192,6 +197,7 @@ plugins:
       htmlmin_opts:
         remove_comments: true
   - git-revision-date-localized:
+      fallback_to_build_date: true
       type: timeago
       # enabled: !ENV [MKDOCS_ENABLE_GIT_REVISION_DATE, True]
   - git-authors:
@@ -206,7 +212,6 @@ plugins:
   - macros
 
 extra_javascript:
-  - javascript/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   

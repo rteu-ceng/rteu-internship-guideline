@@ -1,0 +1,45 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/homepage.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+
+        {% if i18n_page_locale == "en" %}
+        <div class="mdx-hero__content">
+          <h1>{{ config.site_name_en }}</h1>
+          <p>{{ config.site_description_en }}</p>
+          <a href="{{ 'internship/internship/' | url }}" title="Quick start for Internship" class="md-button md-button--primary">
+            Quick start for Internship>>
+          </a>
+          <a href="https://bilgisayar-mmf.erdogan.edu.tr/tr/page/staj-islemleri/5497" title="Visit RTEU Computer Eng. Site" class="md-button">
+            Visit RTEU Computer Eng. Site
+          </a>
+        </div>
+        {% endif %}
+
+        {% if i18n_page_locale == "tr" %}
+        <div class="mdx-hero__content">
+          <h1>{{ config.site_name_tr }}</h1>
+          <p>{{ config.site_description_tr }}</p>
+          <a href="{{ 'internship/internship/' | url }}" title="Staj için Hızlı Başlangıç" class="md-button md-button--primary">
+            Staj için Hızlı Başlangıç>>
+          </a>
+          <a href="https://bilgisayar-mmf.erdogan.edu.tr/tr/page/staj-islemleri/5497" title="Bilgisayar Müh. Sayfasını Ziyaret Et" class="md-button">
+            Bilgisayar Müh. Sayfasını Ziyaret Et
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

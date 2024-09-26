@@ -188,6 +188,7 @@ plugins:
               Government: 'Kamu'
               Internship: 'Staj'
               Calendar :  'Takvim'
+              FAQ: 'SSS'
               License: 'Lisans'
               Changelog: 'Revizyon'
   - tags:
@@ -222,6 +223,7 @@ nav:
   - Government: government/government.md
   - Internship: internship/internship.md
   - Calendar :  calendar/calendar.md
+  - FAQ: faq/faq.md
   - License: license/license.md
   - Changelog: changelog/changelog.md
 

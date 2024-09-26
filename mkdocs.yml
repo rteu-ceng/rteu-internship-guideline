@@ -21,7 +21,7 @@ repo_url: 'https://github.com/rteu-ceng/rteu-internship-guideline'
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2006 - 2023 Recep Tayyip Erdogan University
+copyright: Copyright &copy; 2006 - 2024 Recep Tayyip Erdogan University
      
 # Configuration
 theme:
@@ -110,7 +110,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/rteu-ceng
     - icon: fontawesome/regular/star
-      link: http://bilgisayar.mmf.erdogan.edu.tr/
+      link: https://bilgisayar.mmf.erdogan.edu.tr/
       
 # Extensions
 markdown_extensions:
